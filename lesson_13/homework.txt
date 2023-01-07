@@ -1,0 +1,2 @@
+Hi No hello world Privet Python 
+12 13 23 45 56 64 78 89 97 
