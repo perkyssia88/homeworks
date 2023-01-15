@@ -10,7 +10,7 @@ class Human:
         self.name = name
         self.age = age
         self.__money = 1000
-        self.__house = "Дома нет"
+        self.__house = False
 
     # создаем метод для получения информации из динамических полей
     def info(self):
@@ -34,7 +34,7 @@ class Human:
     # __house присваиваем значение параметра house
     def __make_deal(self, house, price):
         self.__money -= price
-        self.__house = house
+        self.__house = True
 
     # создаем метод с двумя параметрами
     def buy_house(self, house, discount):
