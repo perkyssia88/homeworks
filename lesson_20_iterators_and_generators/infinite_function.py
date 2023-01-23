@@ -26,9 +26,10 @@ def infinite(lst, tries):
 
 
 lst = [192, 168, 1, 1, 2023, 1988, 1944, 3.14]
-tries = input("Введите количество проходов цикла: ")
-try:
-    int(tries)
-except ValueError:
-    print("Введено не числовое значение...")
+while True:
+    try:
+        tries = int(input("Введите количество проходов цикла: "))
+        break
+    except ValueError:
+        print("Введено не числовое значение...")
 infinite(lst, tries)
