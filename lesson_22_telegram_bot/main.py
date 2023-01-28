@@ -13,8 +13,9 @@ from aiogram.dispatcher.filters.state import StatesGroup, State
 (информация, список полезной литературы для
 разработчиков на языке Python)"""
 
+# proxy_url = "http://proxy.server:3128"
 storage = MemoryStorage()
-bot = Bot(token=config.botkey, parse_mode=types.ParseMode.HTML)
+bot = Bot(token=config.botkey, parse_mode=types.ParseMode.HTML)  # proxy=proxy_url
 dp = Dispatcher(bot, storage=storage)
 logging.basicConfig(filename="log.txt", level=logging.INFO,
                     format=u"%(filename)s [LINE:%(lineno)d #%(levelname)-8s] %(message)s")
