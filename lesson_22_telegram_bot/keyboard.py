@@ -20,10 +20,10 @@ bibliography_keyboard.add(button1, button2, button3,
 
 
 info_keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
-button1 = KeyboardButton("Python - что это?")
-button2 = KeyboardButton("Где используется?")
-button3 = KeyboardButton("Документация Python")
-button4 = KeyboardButton(" ")
+button1 = KeyboardButton("О Python")
+button2 = KeyboardButton("О боте")
+button3 = KeyboardButton("Что может бот")
+button4 = KeyboardButton("Самое интересное")
 button5 = KeyboardButton("<-- Назад")
 info_keyboard.add(button1, button2, button3,
                   button4, button5)
