@@ -18,7 +18,7 @@ storage = MemoryStorage()
 bot = Bot(token=config.botkey, parse_mode=types.ParseMode.HTML)  # proxy=proxy_url
 dp = Dispatcher(bot, storage=storage)
 logging.basicConfig(filename="log.txt", level=logging.INFO,
-                    format=u"%(filename)s [LINE:%(lineno)d #%(levelname)-8s] %(message)s")
+                    format=u"%(asctime)s %(filename)s [LINE:%(lineno)d #%(levelname)-8s] %(message)s")
 
 
 @dp.message_handler(Command("start"), state=None)
