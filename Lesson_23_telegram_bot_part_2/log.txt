@@ -1,0 +1,5 @@
+2023-01-30 10:52:00,617 executor.py [LINE:362 #INFO    ] Bot: perkyssia.first_bot [@perkyssia88Bot]
+2023-01-30 10:52:00,742 executor.py [LINE:358 #WARNING ] Updates were skipped successfully.
+2023-01-30 10:52:00,742 dispatcher.py [LINE:358 #INFO    ] Start polling.
+2023-01-30 10:52:26,528 dispatcher.py [LINE:433 #INFO    ] Stop polling...
+2023-01-30 10:52:26,528 executor.py [LINE:329 #WARNING ] Goodbye!
