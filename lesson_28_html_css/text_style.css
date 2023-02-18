@@ -1,0 +1,11 @@
+#button {
+    font-family: Tahoma, sans-serif;
+}
+
+#field {
+    font-size: 12;
+    font-weight: bold;
+    font-style: oblique;
+    color: #ffffff;
+    background-color: #000000;
+}
